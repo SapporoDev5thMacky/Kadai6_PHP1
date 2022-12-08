@@ -1,0 +1,59 @@
+
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+
+body {
+  margin: auto;
+  padding: auto;
+  color: #333333;
+  font-size: 1rem;
+  width: 1200px;
+
+}
+
+
+header {
+  /* position: absolute; */
+  top: 0;
+  width: 1200px;
+  height: 3%;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin: auto;
+  background: linear-gradient(-45deg, #ba49bb, #7c2a53, #d52335, #f2083f);
+  background-size: 400% 400%;
+  animation: gradient 2s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+form{
+  background-color: #eee;
+  padding:40px 60px;
+}
+
+.btn{
+  /* margin: 20px; */
+  position: fixed;
+  bottom:10%;
+}
